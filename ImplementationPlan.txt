@@ -1,3 +1,5 @@
+Implementation Plan
+
 1. Account Management
 Account read will show all the information of the account if the user is authenticated and will compare the account number to the authenticated number to show only that information. 
 Account create will create a new account with information provided and needs no authentication.
