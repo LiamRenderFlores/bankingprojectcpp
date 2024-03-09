@@ -24,7 +24,6 @@ deposit - derived from Account, allows deposit into the SavingsAccount
 withdraw - derived from Account, allows withdraw from the SavingsAccount
 display - derived from Account, displays information of the SavingsAccount (accountNumber, balance, interestRate, withdrawLimit)
 
-
 CheckingAccount -
 
 Attributes:
