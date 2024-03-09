@@ -18,13 +18,12 @@ Derived Classes: SavingsAccount, CheckingAccount
 SavingsAccount - 
 
 Attributes:
-withdrawLimit - holds the limit for withdraws of the SavingsAccount
 interestRate - holds the interestRate for the SavingsAccount
 
 Methods:
 deposit - derived from Account, allows deposit into the SavingsAccount
 withdraw - derived from Account, allows withdraw from the SavingsAccount
-display - derived from Account, displays information of the SavingsAccount (accountNumber, balance, interestRate, withdrawLimit)
+display - derived from Account, displays information of the SavingsAccount (accountNumber, balance, interestRate)
 createAccount - derived from Account, allows a SavingsAccount to be created
 deleteAccount - derived from Account, deletes a SavingsAccount
 
@@ -36,7 +35,7 @@ minBalance - minimum balance for a CheckingAccount
 Methods:
 deposit - derived from Account, allows deposit into the CheckingAccount
 withdraw - derived from Account, allows withdraw from the CheckingAccount
-display - derived from Account, displays information of the CheckingAccount (accountNumber, balance)
+display - derived from Account, displays information of the CheckingAccount (accountNumber, balance, minBalance)
 createAccount - derived from Account, allows a CheckingAccount to be created
 deleteAccount - derived from Account, deletes a CheckingAccount
 
