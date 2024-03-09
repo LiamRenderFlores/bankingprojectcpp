@@ -25,8 +25,8 @@ Methods:
 deposit - derived from Account, allows deposit into the SavingsAccount
 withdraw - derived from Account, allows withdraw from the SavingsAccount
 display - derived from Account, displays information of the SavingsAccount (accountNumber, balance, interestRate, withdrawLimit)
-createAccount - allows a SavingsAccount to be created
-deleteAccount - deletes a SavingsAccount
+createAccount - derived from Account, allows a SavingsAccount to be created
+deleteAccount - derived from Account, deletes a SavingsAccount
 
 CheckingAccount -
 
@@ -37,6 +37,6 @@ Methods:
 deposit - derived from Account, allows deposit into the CheckingAccount
 withdraw - derived from Account, allows withdraw from the CheckingAccount
 display - derived from Account, displays information of the CheckingAccount (accountNumber, balance)
-createAccount - allows a CheckingAccount to be created
-deleteAccount - deletes a CheckingAccount
+createAccount - derived from Account, allows a CheckingAccount to be created
+deleteAccount - derived from Account, deletes a CheckingAccount
 
